@@ -1,0 +1,150 @@
+/* common style */
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.fa-star {
+  color: rgba(236, 141, 15, 0.986);
+}
+.empty {
+  color: gray;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background-color: #e72a69;
+  border: 1px solid #aaa;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+}
+button a {
+  color: #ffff;
+}
+
+/* common style finished */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  align-items: center;
+}
+.logo {
+  font-family: Shrikhand;
+  font-size: 20px;
+}
+.logo span {
+  color: #e72a69;
+}
+
+Ul {
+  display: inline-block;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  margin-right: 1em;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.banner {
+  display: flex;
+  flex: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2%;
+}
+.banner-text h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.774);
+  margin-bottom: 0;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  align-items: center;
+}
+.logos img {
+  margin: 15px;
+  padding: 25px 15px;
+}
+.popular-collections {
+  margin-bottom: 5%;
+}
+.popular-collections h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-size: 35px;
+}
+
+.collection_container {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.collection a {
+  color: #000000d7;
+  font-weight: 400;
+}
+.collection {
+  background-color: #fff;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  box-shadow: #d6d4d4 5px 5px 10px;
+}
+.collection img {
+  text-align: center;
+}
+.collection-text h3 {
+  font-size: 15px;
+  padding-left: 5px;
+  font-weight: 600;
+  color: #0000009c;
+}
+.collection-text h2 {
+  margin-bottom: 5px;
+}
+.seemore h4 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+  color: #e72a69;
+}
+.project h1 {
+  font-size: 35px;
+}
+footer {
+  background-color: #0c0c0c;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: "Roboto Slab", serif;
+}
+footer ul li a {
+  color: #fafafa;
+}
+footer ul li a:hover {
+  color: #e72a69;
+}
