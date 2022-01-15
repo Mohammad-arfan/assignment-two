@@ -7,7 +7,9 @@ body {
   margin: 0%;
   padding: 0%;
 }
-
+.toggle {
+  display: none;
+}
 .fa-star {
   color: rgba(236, 141, 15, 0.986);
 }
@@ -147,4 +149,37 @@ footer ul li a {
 }
 footer ul li a:hover {
   color: #e72a69;
+}
+
+@media (max-width: 668px) {
+  .nav-bar ul {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .banner h1 {
+    font-size: 45px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+  }
+  .collection_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
